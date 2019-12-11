@@ -1,0 +1,56 @@
+$brandColor: #3B3FB6;
+
+.detail{
+  position: absolute;
+  top: 15rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  
+  font-size: 2.7rem;
+  
+    h1{
+      color: $brandColor;
+    }
+    p{
+      font-size: 1.5rem;
+      color: #aaa;
+    }
+    img{
+      position: relative;
+      top: 70px;
+      left: 0%;
+      width: 50vw;
+    }
+}
+
+@media only screen and (max-width:680px) {
+  .detail{
+    font-size: 12px;
+    position: absolute;
+    top: 15rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    font-size: 2rem;
+    
+      h1{
+        color: $brandColor;
+      }
+      p{
+        font-size: 1rem;
+        color: #aaa;
+      }
+      img{
+        position: relative;
+        top: 70px;
+        left: 10%;
+        width: 80vw;
+      }
+  }
+}

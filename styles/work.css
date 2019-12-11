@@ -1,0 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: absolute;
+  top: 15rem;
+  height: 60%;
+  font-size: 2.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main div {
+  display: inline-block;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.main h1 {
+  color: #3B3FB6;
+}
+
+.main p {
+  position: relative;
+  font-size: 2rem;
+  top: 20px;
+  background: #3B3FB6;
+  color: #fff;
+}
+
+.main ul {
+  margin-left: 1rem;
+  margin-top: 5px;
+}
+
+.main a {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=work.css.map */

@@ -1,0 +1,43 @@
+$brandColor: #3B3FB6;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+    position: absolute;
+    top: 15rem;
+    height: 60%;
+    font-size: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    div{
+      display: inline-block;
+      align-self: flex-start;
+    }
+    
+    h1{
+      color: $brandColor;
+    }
+
+    p{
+      position: relative;
+      font-size: 2rem;
+      top: 20px;
+      background: $brandColor;
+      color: #fff;
+    }
+
+    ul{
+      margin-left: 1rem;
+      margin-top: 5px;
+    }
+    a{
+      font-size: 1rem;
+    }
+}
