@@ -1,6 +1,8 @@
 // arms, legs, shoes (253 line)
 
-import * as THREE from '../../../../node_modules/three/build/three.module.js';
+import * as THREE from './node_modules/three/build/three.module.js';
+import {OrbitControls} from './node_modules/three/examples/jsm/controls/OrbitControls.js';
+
 
 var camera, scene, renderer;
 var world, pinoccio;
