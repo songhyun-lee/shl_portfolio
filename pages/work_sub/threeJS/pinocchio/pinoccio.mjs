@@ -58,8 +58,6 @@ function init() {
     window.addEventListener('resize', onWindowResize, false);
     document.addEventListener('mouseup', mouseup, false);
     document.addEventListener('mousedown', mousedown, false);
-    document.addEventListener('touchend', touchend, false);
-    document.addEventListener('touchmove', touchmove, false);
   });
 }
 
@@ -77,23 +75,6 @@ function mousemove(e){
   mouse.y.current = e.clientY;
   mouse.x.calc = mouse.x.current - (container.width/2);
   mouse.y.calc = mouse.y.current - (container.height/2);
-}
-
-function touchend(e){ //이게 무슨 작동을 하는거지?
-  if (isUp) {
-    isUp = false;
-  } else {
-    mousedown(e);
-  }
-}
-
-function touchmove(e){
-  if (e.touches.length === 1){
-    mouse.x.current = e.touches[0].pageX,
-      mouse.y.current = e.touches[0].pageY;
-      mouse.x.calc = mouse.x.currnet - (container.width / 2);
-      mouse.y.calc = mouse.y.currnet - (container.height / 2);
-  }
 }
 
 function mouseup(e){
