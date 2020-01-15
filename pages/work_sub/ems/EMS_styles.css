@@ -1,0 +1,388 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'NanumSquare';
+  font-weight: 600;
+  position: relative;
+}
+
+body header {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+body header .logo {
+  background-image: url("./images/EMSlogo.svg");
+  background-repeat: no-repeat;
+  width: 202px;
+  height: 27px;
+  margin: 6px;
+  float: left;
+}
+
+body header ul {
+  float: right;
+  overflow: hidden;
+  margin-right: 160px;
+}
+
+body header ul li {
+  float: left;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+body .container {
+  height: 100vh;
+}
+
+body .container section {
+  position: absolute;
+  width: 100%;
+}
+
+body .container section article {
+  width: 40%;
+  top: 30vh;
+  left: 15%;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+body .container section article h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #0073cc;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+body .container section article p {
+  margin: 25px 0 35px 0;
+  width: 25vw;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+body .container section article ul li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+body .container section article button {
+  width: 150px;
+  height: 60px;
+  margin-top: 30px;
+  background: #0073cc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.mainImg {
+  position: absolute;
+  right: 0;
+  background-image: url("./images/mainImg.svg");
+  background-size: cover;
+  width: 60%;
+  height: 100vh;
+  z-index: -99;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title h1 {
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.title .smallTitle {
+  color: #0073cc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+.title .blueLine {
+  width: 70px;
+  height: 30px;
+  border-bottom: solid 1.5px #0073cc;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 150px;
+}
+
+.intro_1 {
+  overflow: hidden;
+}
+
+.intro_1 .aboutImg {
+  display: block;
+  float: left;
+  width: 50%;
+  z-index: -998;
+  position: relative;
+}
+
+.intro_1 .aboutImg .circle {
+  background-color: #0073cc;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50px;
+  left: 20%;
+}
+
+.intro_1 .aboutImg img {
+  width: 70%;
+  position: absolute;
+  right: 80px;
+  top: 50px;
+}
+
+.intro_1 .detail {
+  display: block;
+  float: right;
+  width: 50%;
+  margin-right: -10%;
+}
+
+.intro_2 {
+  overflow: hidden;
+}
+
+.intro_2 .aboutImg {
+  display: block;
+  float: right;
+  width: 50%;
+  z-index: -998;
+  position: relative;
+}
+
+.intro_2 .aboutImg .circle {
+  border: dotted 2px #0073cc;
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  border-radius: 50%;
+  top: 80px;
+  left: 10%;
+}
+
+.intro_2 .aboutImg img {
+  width: 60%;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}
+
+.intro_2 .detail {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 20%;
+}
+
+.subTitle {
+  margin: 250px auto;
+  position: relative;
+}
+
+.subTitle h1 {
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+}
+
+.subTitle .smallTitle {
+  color: #0073cc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 0 0 0;
+}
+
+.subTitle .blueLine {
+  width: 70px;
+  height: 15px;
+  border-bottom: solid 1.5px #0073cc;
+  position: absolute;
+}
+
+.subTitle p {
+  line-height: 1.8rem;
+  margin: 15px 0;
+  width: 60%;
+  padding-top: 15px;
+}
+
+.program {
+  height: 100vh;
+  display: block;
+  margin-top: 150px;
+}
+
+.program section {
+  margin-top: 100px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.program section .programImg {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.program section .programImg .box {
+  background-color: #0073cc;
+  width: 450px;
+  height: 80px;
+  position: absolute;
+  top: 380px;
+  left: 30%;
+}
+
+.program section .programImg img {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  width: 50%;
+}
+
+.program section .detail {
+  float: right;
+  width: 45%;
+}
+
+.program section .detail p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #555;
+  line-height: 2rem;
+}
+
+.program section .detail h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.program section .detail h1 span {
+  font-weight: 900;
+  color: #0073cc;
+}
+
+.program section .detail ul {
+  margin-top: 25px;
+}
+
+.program section .detail li {
+  font-size: 1.5rem;
+  padding: 10px 0;
+  font-weight: 900;
+}
+
+.program section .detail li span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+footer {
+  height: 250px;
+  background: #efefef;
+}
+
+footer section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer section h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer section ul {
+  margin-top: 50px;
+}
+
+footer section ul li {
+  padding: 5px;
+  font-size: .8rem;
+}
+/*# sourceMappingURL=EMS_styles.css.map */
