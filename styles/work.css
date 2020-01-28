@@ -6,10 +6,8 @@
 }
 
 .main {
-  margin-bottom: 200px;
-  position: absolute;
-  top: 250px;
-  font-size: 2.7rem;
+  position: relative;
+  margin: 150px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,36 +16,55 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  overflow-x: hidden;
 }
 
-.main div {
-  display: inline-block;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+.main .projectList {
+  margin: 0px auto;
 }
 
-.main h1 {
-  color: #3B3FB6;
+.main .projectItem {
+  margin: 120px 0;
+  white-space: pre;
+  text-align: center;
 }
 
-.main p {
+.main .projectTitle {
   position: relative;
-  font-size: 2rem;
-  top: 20px;
-  background: #3B3FB6;
-  color: #fff;
+  font-size: 5rem;
+  color: #a9a9a9;
 }
 
-.main ul {
-  margin-left: 1rem;
-  margin-top: 5px;
+.main .projectTitle:before {
+  width: 0;
+  position: absolute;
+  content: attr(data-text);
+  overflow: hidden;
+  -webkit-transition: all 0.8s cubic-bezier(0.8, 0.01, 0.01, 0.8);
+  transition: all 0.8s cubic-bezier(0.8, 0.01, 0.01, 0.8);
 }
 
-.main a {
-  font-size: 1rem;
+.main .projectTitle:hover:before {
+  width: 100%;
+  color: #3B3FB6;
+  white-space: pre;
+}
+
+@media only screen and (max-width: 900px) {
+  .main .projectTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    margin: 60px auto;
+  }
+  .main .projectItem {
+    margin: 80px 0;
+  }
+  .main .projectTitle {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=work.css.map */
