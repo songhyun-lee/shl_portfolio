@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio|Montserrat|Sacramento|Alata&display=swap");
 @font-face {
-  font-family: 'Handon3gyeopsal600g';
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff") format("woff");
+  font-family: 'Cafe24Ohsquare';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Alata', 'Handon3gyeopsal600g';
+  font-family: 'Alata', 'Cafe24Ohsquare';
 }
 
 ul, li, a {
