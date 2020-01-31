@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.module.js';
+import * as THREE from 'https://threejs.org/build/three.module.js';
 import {GLTFLoader} from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
 
 
