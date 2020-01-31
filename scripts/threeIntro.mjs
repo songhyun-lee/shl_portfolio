@@ -1,5 +1,5 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js';
-import { GLTFLoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js';
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 function main() {
 
