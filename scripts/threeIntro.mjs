@@ -54,7 +54,7 @@ function main() {
   }
 
   function hornRotate(speed){
-    const hornRY = calc(mouse.x, -400, 400, -Math.PI/40, Math.PI/40);
+    const hornRY = calc(mouse.x, -400, 400, -Math.PI/4, Math.PI/4);
     horn.rotation.y += (hornRY - horn.rotation.y) / speed;
     const hornRX = calc(mouse.y, -400, 400, Math.PI/120, -Math.PI/120);
     horn.rotation.x += (hornRX - horn.rotation.x) / speed;
