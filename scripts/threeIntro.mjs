@@ -1,4 +1,3 @@
-import * as THREE from 'three';
 import { GLTFLoader } from 'https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js';
 
 function main() {
