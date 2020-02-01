@@ -49,6 +49,7 @@ function main() {
   }
   canvas.addEventListener('touchmove', handleTouchmove, false);
   function handleTouchmove(e){
+    e.preventDefault();
     mouse.x = e.touches[0].clientX - canvas.clientWidth/2;
     mouse.y = -(e.touches[0].clientY - canvas.clientHeight/2);
   }
