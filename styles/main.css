@@ -121,8 +121,8 @@ body {
     bottom: 100px;
     z-index: 2;
     user-select: none;
-    border: 1px solid white;
-    height: 1.5rem;
+    border: 0.5px solid white;
+    height: 1.6rem;
     width: 180px;
     border-radius: 40px;
 }
