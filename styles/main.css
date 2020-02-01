@@ -50,6 +50,7 @@ body {
   height: 100%;
   position: absolute;
   box-sizing: border-box;
+  user-select: none;
 }
 
 .container .logo {
@@ -99,6 +100,8 @@ body {
   display: block;
   font-size: 6rem;
   z-index: 2;
+    user-select: none;
+
 }
 
 .container .hero p {
@@ -106,6 +109,8 @@ body {
   font-size: 3.5rem;
   font-weight: 100;
   z-index: 2;
+    user-select: none;
+
 }
 
 .container .hero .workLink {
