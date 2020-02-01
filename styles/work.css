@@ -101,12 +101,13 @@ body {
 @media only screen and (max-width: 680px) {
   .main {
     margin: 60px auto;
+    margin-bottom: 150px;
   }
   .main .pageTitle h1 {
     font-size: 1.5rem;
   }
   .main .pageTitle p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .main .pageTitle p span {
     display: none;
