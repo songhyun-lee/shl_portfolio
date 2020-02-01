@@ -16,10 +16,6 @@
   font-size: 2.7rem;
 }
 
-.detail .pageTitle p {
-    position: abolute;
-    left:0;
-  }
 .detail h1 {
   color: #fbfbfb;
 }
@@ -28,6 +24,11 @@
   font-size: 1.5rem;
   color: #aaa;
 }
+
+.detail .pageTitle p {
+    position: abolute;
+    left:0;
+  }
 
 .detail img {
   position: relative;
