@@ -24,7 +24,8 @@ body {
   height:auto;
   margin: 150px auto;
   font-weight: bold;
-  display: block;
+  position: absolute;
+  bottom:0;
 }
 
 .main .pageTitle {
