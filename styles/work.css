@@ -20,7 +20,7 @@ body {
 }
 
 .main {
-  margin: 150px auto;
+  margin-top: 150px;
   font-weight: bold;
   height: 100%
   overflow: hidden;
