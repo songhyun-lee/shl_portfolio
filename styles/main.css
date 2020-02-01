@@ -20,7 +20,7 @@ ul, li, a {
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #242436), to(#09090e)) fixed no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #2a2787), to(#09090e)) fixed no-repeat;
   background: linear-gradient(0deg, #242436 60%, #09090e 100%) fixed no-repeat;
   background-size: cover;
   margin: 0;
