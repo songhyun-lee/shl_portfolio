@@ -93,7 +93,7 @@ function main() {
   }
 
   function loop() {
-    hornRotate(40);
+    hornRotate(20);
     if (resizeRenderer(renderer)) {
       const canvas = renderer.domElement;
       camera.aspect = canvas.clientWidth / canvas.clientHeight;
