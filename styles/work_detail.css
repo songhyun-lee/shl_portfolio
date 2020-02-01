@@ -27,8 +27,9 @@
 
 .detail img {
   position: relative;
-  margin: 100px auto;
-  width: 70vw;
+  top: 100px;
+  margin: 30px auto;
+  width: 60vw;
 }
 
 @media only screen and (max-width: 900px) {
@@ -36,8 +37,9 @@
     font-size: 1.7rem;
   }
   .detail img {
-    position: absolute;
+    position: relative;
     top: 100px;
+    margin: 30px auto;
     width: 80vw;
   }
 }
@@ -45,7 +47,6 @@
 @media only screen and (max-width: 680px) {
   .detail {
     position: relative;
-    margin: 100px auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -69,10 +70,10 @@
     color: #aaa;
   }
   .detail img {
-    position: absolute;
-    top: 10px;
-    margin: 100px auto;
-    width: 95vw;
+    position: relative;
+    top: 100px;
+    margin: 30px auto;
+    width: 90vw;
   }
 }
 /*# sourceMappingURL=work_detail.css.map */
