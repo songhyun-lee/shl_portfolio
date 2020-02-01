@@ -120,6 +120,8 @@ body {
   bottom: 100px;
   z-index: 2;
   user-select: none;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 900px) {
