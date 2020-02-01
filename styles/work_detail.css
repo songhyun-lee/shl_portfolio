@@ -26,7 +26,7 @@
 }
 
 .detail .pageTitle .backLink {
-    position: abolute;
+    position: absolute;
     left:0;
   }
 
@@ -74,10 +74,7 @@
     font-size: 1rem;
     color: #aaa;
   }
-  .detail .pageTitle .backLink {
-    position: abolute;
-    left:0;
-  }
+
   .detail img {
     position: relative;
     top: 100px;
