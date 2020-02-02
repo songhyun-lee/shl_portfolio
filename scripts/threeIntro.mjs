@@ -14,9 +14,9 @@ function main() {
   {
     const hemiLight = new THREE.HemisphereLight(0xffffff, 0xeeeeee, 0.9);
     const dirLight = new THREE.DirectionalLight(0xE1DEE3, 0.05);
-    const pointLight = new THREE.PointLight(0xFFECAC, .8, 5000);
-    pointLight.position.set(-300, 100, -1000);
-    scene.add(pointLight);
+//     const pointLight = new THREE.PointLight(0xFFECAC, .8, 5000);
+//     pointLight.position.set(-300, 100, -1000);
+//     scene.add(pointLight);
     const backLight = new THREE.DirectionalLight(0xFFECAC, .9);
     scene.add(backLight);
     
