@@ -7,7 +7,7 @@ function main() {
   const canvas = document.querySelector('#c');
   const renderer = new THREE.WebGLRenderer({ canvas:canvas, alpha: true });
   renderer.setClearColor(0x333342, 0);
-  const camera = new THREE.PerspectiveCamera(65, 2, 900, 1100);
+  const camera = new THREE.PerspectiveCamera(65, 2, 800, 1300);
   camera.position.set(0, 0, 900);
   const scene = new THREE.Scene();
 
